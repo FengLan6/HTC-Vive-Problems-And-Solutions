@@ -20,3 +20,4 @@ Unity里面报这个错的 ： IsMatrixValid(matrix)
 >问题详细描述2：Unity5.6.0版本,如果你使用SteamVR版本是1.2.1，还会报错｛VR: OpenVR Error! OpenVR failed initialization with error code VRInitError_Init_InterfaceNotFound: "Interface Not Found (105)"!｝<br>
 解决方法2:<br>
 1.使用Unity5.6.0以下版本,推荐使用Unity5.5.2版本,steam vr plugin 换 1.1.1版本
+2.仍使用Unity5.6.0版本,steam vr plugin 换成 1.2.0版本.如果运行中找不到手柄,需要在CameraRig下的eye上挂载SteamVR_UpdatePoses脚本
